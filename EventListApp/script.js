@@ -28,8 +28,8 @@ function insertNewRecord(data) {
     cell2.innerHTML = data.startDate;
     cell3 = newRow.insertCell(2);
     cell3.innerHTML = data.endDate;
-    cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a onClick="onEdit(this)">Edit</a>
+    cell3 = newRow.insertCell(3);
+    cell3.innerHTML = `<a onClick="onEdit(this)">Edit</a>
                        <a onClick="onDelete(this)">Delete</a>`;
 }
 
